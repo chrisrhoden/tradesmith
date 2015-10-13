@@ -1,15 +1,55 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  catalog_item_id: 
-  trader_id: 
-  condition: 1
-  description: MyText
+bailey_dixit:
+  catalog_item: dixit
+  trader: bailey
+  condition: 5
   incomplete: false
 
-two:
-  catalog_item_id: 
-  trader_id: 
+bailey_banana:
+  catalog_item: banana
+  trader: bailey
+  condition: 2
+  incomplete: false
+
+chris_settlers:
+  catalog_item: settlers
+  trader: chris
+  condition: 4
+  incomplete: false
+
+chris_power:
+  catalog_item: power
+  trader: chris
+  condition: 3
+  incomplete: false
+
+chris_diplomacy:
+  catalog_item: diplomacy
+  trader: chris
   condition: 1
-  description: MyText
+  incomplete: true
+
+farski_coup:
+  catalog_item: coup
+  trader: farski
+  condition: 5
+  incomplete: false
+
+farski_power:
+  catalog_item: power
+  trader: farski
+  condition: 5
+  incomplete: false
+
+farski_race:
+  catalog_item: race
+  trader: farski
+  condition: 1
+  incomplete: false
+
+farski_settlers:
+  catalog_item: settlers
+  trader: farski
+  condition: 5
   incomplete: false

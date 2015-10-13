@@ -1,9 +1,28 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  description: MyText
+settlers:
+  name: Settlers of Catan
 
-two:
-  name: MyString
-  description: MyText
+codenames:
+  name: Codenames
+
+coup:
+  name: Coup
+
+werewolf:
+  name: One Night Ultimate Werewolf
+
+power:
+  name: Power Grid
+
+diplomacy:
+  name: Diplomacy
+
+dixit:
+  name: Dixit
+
+race:
+  name: Race for the Galaxy
+
+banana:
+  name: Bananagrams

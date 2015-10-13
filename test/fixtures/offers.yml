@@ -1,13 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  trader_id: 
-  tradeable_item_id: 
-  catalog_item_id: 
-  minimum_condition: 1
+  tradeable_item: bailey_dixit
+  catalog_item: settlers
+  minimum_condition: 2
 
 two:
-  trader_id: 
-  tradeable_item_id: 
-  catalog_item_id: 
+  tradeable_item: bailey_banana
+  catalog_item: settlers
+  minimum_condition: 2
+
+three:
+  tradeable_item: bailey_dixit
+  catalog_item: diplomacy
   minimum_condition: 1
