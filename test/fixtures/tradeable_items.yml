@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  catalog_item_id: 
+  trader_id: 
+  condition: 1
+  description: MyText
+  incomplete: false
+
+two:
+  catalog_item_id: 
+  trader_id: 
+  condition: 1
+  description: MyText
+  incomplete: false

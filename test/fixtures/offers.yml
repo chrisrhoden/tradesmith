@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trader_id: 
+  tradeable_item_id: 
+  catalog_item_id: 
+  minimum_condition: 1
+
+two:
+  trader_id: 
+  tradeable_item_id: 
+  catalog_item_id: 
+  minimum_condition: 1
