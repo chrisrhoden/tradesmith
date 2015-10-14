@@ -2,27 +2,36 @@
 
 settlers:
   name: Settlers of Catan
+  slug: CATAN
 
 codenames:
   name: Codenames
+  slug: CODENAMES
 
 coup:
   name: Coup
+  slug: COUP
 
 werewolf:
   name: One Night Ultimate Werewolf
+  slug: ONUW
 
 power:
   name: Power Grid
+  slug: POWERGRID
 
 diplomacy:
   name: Diplomacy
+  slug: DIPLOMACY
 
 dixit:
   name: Dixit
+  slug: DIXIT
 
 race:
   name: Race for the Galaxy
+  slug: RFTG
 
 banana:
   name: Bananagrams
+  slug: BANANAGRAMS

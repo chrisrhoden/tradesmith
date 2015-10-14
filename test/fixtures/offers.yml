@@ -1,16 +1,25 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  tradeable_item: bailey_dixit
+bailey_for_settlers:
+  trader: bailey
   catalog_item: settlers
+  tradeable_items: bailey_dixit, bailey_banana
   minimum_condition: 2
 
-two:
-  tradeable_item: bailey_banana
-  catalog_item: settlers
-  minimum_condition: 2
-
-three:
-  tradeable_item: bailey_dixit
+bailey_for_diplomacy:
+  trader: bailey
   catalog_item: diplomacy
+  tradeable_items: bailey_dixit, bailey_banana
   minimum_condition: 1
+
+chris_for_race:
+  trader: chris
+  catalog_item: race
+  tradeable_items: chris_diplomacy, chris_power
+  minimum_condition: 1
+
+farski_for_dixit:
+  trader: farski
+  catalog_item: dixit
+  tradeable_items: farski_race
+  minimum_condition: 3

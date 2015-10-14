@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151013225439) do
+ActiveRecord::Schema.define(version: 20151014003825) do
 
   create_table "acceptable_incompletes", force: :cascade do |t|
     t.integer  "offer_id"
@@ -28,11 +28,11 @@ ActiveRecord::Schema.define(version: 20151013225439) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.string   "slug"
   end
 
   create_table "offers", force: :cascade do |t|
     t.integer  "trader_id"
-    t.integer  "tradeable_item_id"
     t.integer  "catalog_item_id"
     t.integer  "minimum_condition"
     t.datetime "created_at",        null: false
@@ -40,8 +40,12 @@ ActiveRecord::Schema.define(version: 20151013225439) do
   end
 
   add_index "offers", ["catalog_item_id"], name: "index_offers_on_catalog_item_id"
-  add_index "offers", ["tradeable_item_id"], name: "index_offers_on_tradeable_item_id"
   add_index "offers", ["trader_id"], name: "index_offers_on_trader_id"
+
+  create_table "offers_tradeable_items", force: :cascade do |t|
+    t.integer "offer_id"
+    t.integer "tradeable_item_id"
+  end
 
   create_table "tradeable_items", force: :cascade do |t|
     t.integer  "catalog_item_id"
